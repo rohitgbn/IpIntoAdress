@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/ip_address_id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Ip Address"
+        android:textSize="32sp" />
+
+    <TextView
+        android:id="@+id/ip_country_id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:text="Country" />
+    <TextView
+        android:id="@+id/ip_city_id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:text="City" />
+    <TextView
+        android:id="@+id/ip_timezone_id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:text="TimeZone" />
+    <TextView
+        android:id="@+id/ip_isp_id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:text="Internet Service Provide" />
+
+
+</androidx.appcompat.widget.LinearLayoutCompat>
